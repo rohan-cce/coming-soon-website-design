@@ -51,12 +51,13 @@ justify-content: space-between;
 align-items: center;
 min-height: 100vh;
 padding : 0 100px;
+}
 
- }
 section .contentBx{
      position: relative;
      max-width: 600px;
      z-index: 1000;
+     
  }
 section .contentBx h2{
      font-size: 60px;
@@ -95,7 +96,7 @@ section .contentBx a{
      position: relative;
      margin-top:10px;
      display: inline-block;
-     background: #ff0083;
+     background :#ff0083;
      color:#fff;
      font-size: 20px;
      letter-spacing:2px;
@@ -175,7 +176,7 @@ section .sci li a{
      border: 1px solid #999; 
  }
 
-.newsletter .inputBox input[type="submit"]{
+.newsletter .inputBox input[type="Submit"]{
      padding:10px;
      outline:none;
      width: 140px;
