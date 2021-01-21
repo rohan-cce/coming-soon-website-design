@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -17,7 +17,7 @@ body{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     z-index: 10 ;
+     z-index: 10;
  }
  header .logo{
      position: relative;
@@ -34,7 +34,7 @@ body{
      display: flex;
  }
  header nav ul li{
-     list-style: none ;
+     list-style: none;
  }
  header nav ul li a{
      color:#fff;
@@ -44,33 +44,34 @@ body{
  header nav ul li a:hover{
      color:#ff0083;
  }
- section{
+section{
 position: relative;
 display: flex;
 justify-content: space-between;
 align-items: center;
 min-height: 100vh;
 padding : 0 100px;
+
  }
- section .contentBx{
+section .contentBx{
      position: relative;
      max-width: 600px;
      z-index: 1000;
  }
- section .contentBx h2{
+section .contentBx h2{
      font-size: 60px;
      color:#fff;
      text-transform: uppercase;
  }
- section .contentBx p{
+section .contentBx p{
      font-size: 18px;
-     color:#fff 
- }
- section .contentBx .countdown{
+     color:#fff;
+} 
+section .contentBx .countdown{
      display: flex;
      margin: 20px 0;
  }
- section .contentBx .countdown .time{
+section .contentBx .countdown .time{
      display: flex;
      justify-content: center;
      align-items: center;
@@ -84,13 +85,13 @@ padding : 0 100px;
      border-radius: 4px;
      color:#ff0083;
  }
- section .contentBx .countdown .time span{
+section .contentBx .countdown .time span{
      margin-top: -10px;
      font-size: 20px;
      font-weight: 600;
      color:#312747;
  }
- section .contentBx a{
+section .contentBx a{
      position: relative;
      margin-top:10px;
      display: inline-block;
@@ -103,21 +104,21 @@ padding : 0 100px;
      border-radius: 40px;
  }
 
- section .imgBx img{
+section .imgBx img{
      position: relative;
      max-width: 500px;
      width: 100%;
      margin-top: 100px;
-     z-index: 2   ;
+     z-index: 2;
  }
- .wave{
+.wave{
      position: absolute;
      bottom:0;
      right:0;
     z-index:1;
     pointer-events: none;
  }
- section .sci{
+section .sci{
      position: absolute;
      bottom:40px;
      left:100px;
@@ -125,56 +126,56 @@ padding : 0 100px;
      display: flex;
      justify-content: center;
      align-items:center;
-     filter:invert(1)
+     filter:invert(1);
  }
- section .sci li{
+section .sci li{
      list-style: none;
  }
 
- section .sci li a{
+section .sci li a{
      display: block;
      margin-right: 20px;
      transform: scale(0.8);
  }
 
- .newsletter{
+.newsletter{
      position: fixed;
      top:50%;
      left:50%;
      transform: translate(-50%,-50%);
      width: 600px;
      padding: 60px;
-     background: #fff  ;
+     background: #fff;
      z-index: 10000;
      box-shadow: 0 0 0 100vh rgba(49,39,71,0.95);
      visibility: hidden;
      opacity: 0;
-     transition: 0.5s  ;
+     transition: 0.5s;
  }
 .newsletter.active{
     visibility: visible;
     opacity: 1;
 }
- .newsletter h2{
+.newsletter h2{
      font-size: 48px;
      color:#312747
  }
- .newsletter p{
+.newsletter p{
      font-size: 20px;
      color:#312747;
  }
- .newsletter .inputBox{
+.newsletter .inputBox{
      margin-top: 20px;
  }
- .newsletter .inputBox input{
+.newsletter .inputBox input{
      padding:  10px;
-     outline:none;
+     outline:  none;
      width: 300px;
      font-size: 18px;
      border: 1px solid #999; 
  }
 
- .newsletter .inputBox input[type="submit"]{
+.newsletter .inputBox input[type="submit"]{
      padding:10px;
      outline:none;
      width: 140px;
@@ -186,7 +187,7 @@ padding : 0 100px;
      cursor:pointer; 
  }
 
- .newsletter .close{
+.newsletter .close{
      position: absolute;
      top: 20px;
      right: 20px;
@@ -196,7 +197,7 @@ padding : 0 100px;
  }
 
 
- @media(max-width:991px){
+@media(max-width:991px){
      section{
          flex-direction: column;
          padding-top: 150px;
@@ -208,7 +209,7 @@ padding : 0 100px;
      }
  }
 
- @media (max-width:767px){
+@media (max-width:767px){
      header{
          padding:20px 50px;
      }section{
