@@ -13,7 +13,7 @@ body{
      top:0;
      left:0;
      width: 100%;
-     padding:40px 100px;
+     padding: 40px 100px;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -96,7 +96,7 @@ section .contentBx a{
      position: relative;
      margin-top:10px;
      display: inline-block;
-     /* background :#ff0083; */
+     background :#ff0083;
      color:#fff;
      font-size: 20px;
      letter-spacing:2px;
@@ -127,7 +127,7 @@ section .sci{
      display: flex;
      justify-content: center;
      align-items:center;
-     filter:invert(1);
+     filter: invert(1);
  }
 section .sci li{
      list-style: none;
@@ -176,7 +176,7 @@ section .sci li a{
      border: 1px solid #999; 
  }
 
-.newsletter .inputBox input[type="Submit"]{
+.newsletter .inputBox input[type="submit"]{
      padding:10px;
      outline:none;
      width: 140px;
