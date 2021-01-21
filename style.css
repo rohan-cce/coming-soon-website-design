@@ -136,3 +136,14 @@ padding : 0 100px;
      margin-right: 20px;
      transform: scale(0.8);
  }
+
+ .newsletter{
+     position: fixed;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     width: 600px;
+     padding: 60px;
+     background: #fff  ;
+     z-index: 10000;
+ }
