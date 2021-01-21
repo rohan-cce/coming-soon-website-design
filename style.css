@@ -146,4 +146,5 @@ padding : 0 100px;
      padding: 60px;
      background: #fff  ;
      z-index: 10000;
+     box-shadow: 0 0 0 100vh rgba(49,39,71,0.95);
  }
