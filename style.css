@@ -194,3 +194,47 @@ padding : 0 100px;
      height: 40px;
      cursor: pointer;
  }
+
+
+ @media(max-width:991px){
+     section{
+         flex-direction: column;
+         padding-top: 150px;
+         height: auto;
+     }section .contentBx{
+         max-width: 100%;
+     }section .imgBx img{
+         margin-top: 0;
+     }
+ }
+
+ @media (max-width:767px){
+     header{
+         padding:20px 50px;
+     }section{
+         flex-direction: column;
+         padding: 120px 50px 100px;
+         height: auto;
+     }section .contentBx h2{
+         font-size: 40px;
+     }section .contentBx p{
+        font-size: 16px;
+    } section .contentBx .countdown .time{
+        font-size: 30px;
+        min-width: 70px;
+        margin-right: 5px;
+    } section .contentBx .countdown .time span{
+        font-size: 14px;
+    }section .contentBx a{
+        position: relative;
+        margin-top: 10px;
+        display: inline-block;
+        background: #fff;
+        color:#ff0083;
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding:10px 25px;
+        text-decoration: none;
+        border-radius: 40px;
+    }
+ }
