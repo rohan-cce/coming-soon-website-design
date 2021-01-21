@@ -149,9 +149,12 @@ padding : 0 100px;
      box-shadow: 0 0 0 100vh rgba(49,39,71,0.95);
      visibility: hidden;
      opacity: 0;
-     transition: 0.5s;
+     transition: 0.5s  ;
  }
-
+.newsletter.active{
+    visibility: visible;
+    opacity: 1;
+}
  .newsletter h2{
      font-size: 48px;
      color:#312747
@@ -181,4 +184,13 @@ padding : 0 100px;
      letter-spacing: 2px;
      box-sizing: border-box;
      cursor:pointer; 
+ }
+
+ .newsletter .close{
+     position: absolute;
+     top: 20px;
+     right: 20px;
+     width: 40px;
+     height: 40px;
+     cursor: pointer;
  }
