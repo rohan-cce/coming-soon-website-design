@@ -96,7 +96,7 @@ section .contentBx a{
      position: relative;
      margin-top:10px;
      display: inline-block;
-     background :#ff0083;
+     /* background :#ff0083; */
      color:#fff;
      font-size: 20px;
      letter-spacing:2px;
